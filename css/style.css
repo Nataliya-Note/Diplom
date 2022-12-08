@@ -404,9 +404,8 @@ li {
   display: block;
 }
 
-.card-picture {
-  /* min-width: 380px;
-  min-height: 294px; */
+.card {
+margin-top: 60px;
 }
 
 .card-picture img {
