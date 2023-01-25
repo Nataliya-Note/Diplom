@@ -9,6 +9,9 @@
 </head>
 <body>
     <section class="popup _hidden">
+      <a href="#close" title="Close" class="close">
+        <img src="svg/form-x.svg" alt="закрыть">
+      </a>
     <div class="popup-container">
         <div class="feedback">
             <h2 class="page-titles">Ваш фидбек</h2>
@@ -26,8 +29,16 @@
                 </div>
                 <div class="feedback-row">
                     <span class="feedback-hint">Вы подписаны на e-mail рассылку?</span>
-                    <label class="feedback-label"><input class="feedback-radio visually-hidden" name="subscribed" type="radio" value="yes"><span class="feedback-radio-hint">Да</span></label>
-                    <label class="feedback-label"><input class="feedback-radio visually-hidden" name="subscribed" type="radio" value="yes"><span class="feedback-radio-hint">Нет</span></label>
+                    <div>
+                      <div class="feedback-label">
+                          <input id="radio-1" name="subscribed" type="radio" value="yes">
+                          <label for="radio-1" class="feedback-radio-hint">Да</label>
+                      </div>
+                      <div class="feedback-label">
+                          <input id="radio-2" name="subscribed" type="radio" value="yes">
+                          <label for="radio-2" class="feedback-radio-hint">Нет</label>
+                      </div>
+                    </div>
                 </div>
                 <div class="feedback-row">
                     <label class="feedback-label">
@@ -40,7 +51,7 @@
                 </div>
             </form>
         </div>
-        <button class="feedback-close">Закрыть</button>
+        <!-- <button class="feedback-close">Закрыть</button> -->
     </div>
     </section>
     <header class="header">
@@ -601,5 +612,7 @@
           </div>
         </div>
       </footer>
+
+      <script src="script.js"></script>
 </body>
 </html>
