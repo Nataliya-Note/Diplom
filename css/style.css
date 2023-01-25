@@ -1235,7 +1235,7 @@ color: black;
   }
 
   .header {
-    background-image: url("/images/banner-bg-tablet.jpg");
+    background-image: url("../images/banner-bg-tablet.jpg");
   }
 
   .trend {
@@ -1315,7 +1315,7 @@ color: black;
 
   @media (max-width: 640px) {
     .header {
-      background-image: url("/images/banner-mobile.jpg");
+      background-image: url("../images/banner-mobile.jpg");
       padding-bottom: 220px;
     }
 
